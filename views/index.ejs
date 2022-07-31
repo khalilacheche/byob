@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>BYOB</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://cdn.socket.io/4.5.0/socket.io.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  </head>
+  <body>
+    <script src="scripts/index.js"></script>
+    <div id="container">
+        <h1>Acquire</h1>
+        <form action="/acquire" method="post">
+            <label for="terminal_id">Terminal id:</label><br>
+            <input type="number" id="terminal_id" name="terminal_id"><br>
+            <label for="card_id">Card id:</label><br>
+            <input type="number" id="card_id" name="card_id"><br><br>
+            <input type="submit" value="Submit">
+          </form>
+        <h1>Commit</h1>
+        <form action="/commit" method="post">
+            <label for="terminal_id">Terminal id:</label><br>
+            <input type="number" id="terminal_id" name="terminal_id"><br>
+            <label for="card_id">Card id:</label><br>
+            <input type="number" id="card_id" name="card_id"><br><br>
+            <label for="amount">Amount:</label><br>
+            <input type="number" id="amount" name="amount"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+  </body>
+</html>
