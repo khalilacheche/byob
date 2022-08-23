@@ -1,1 +1,1 @@
-{"transactions":[{"card_id":"1","amount":"100"},{"card_id":"1","amount":-12},{"card_id":"1","amount":13},{"card_id":"1","amount":-1}],"cards":[{"card_id":"0","balance":0,"locked":false},{"card_id":"1","balance":0,"locked":true}]}
+{"transactions":["{\"amount\":1,\"card_id\":\"1\"}","{\"amount\":1,\"card_id\":\"1\"}","{\"amount\":1,\"card_id\":\"1\"}","{\"amount\":1,\"card_id\":\"1\"}","{\"amount\":1,\"card_id\":\"1\"}","{\"amount\":1,\"card_id\":\"1\"}"],"cards":[{"card_id":"0","balance":0,"locked":true},{"card_id":"1","balance":6,"locked":true}]}
